@@ -97,6 +97,37 @@
     z-index: 555;
   }
   /*основной блок*/
+  h2 {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+  }
+  .content-boxes{
+  display: flex;
+}
+.container-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.boxes-issues{
+  width:25%;
+}
+.issues-name{
+  box-sizing: border-box;
+  border: 1px solid #b59f5b;
+}
+.issues-prewiew{
+ text-transform: uppercase;
+ list-style-type: none; 
+ text-decoration: none;
+ color:#b59f5b;
+ font-weight: 700;
+ text-align: left;
+ display: inline;
+}
   .content {
     display: flex;
     width: 1170px;
