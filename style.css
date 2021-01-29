@@ -112,7 +112,8 @@
     margin-right: auto;
 }
 .boxes-issues{
-  width:20%;
+  box-sizing: border-box;
+  width:290px;
 }
 .issues-name{
   box-sizing: border-box;
