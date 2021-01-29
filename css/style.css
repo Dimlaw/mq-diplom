@@ -96,7 +96,7 @@
     position: relative;
     z-index: 555;
   }
-  /*основной блок*/
+  /*основной блок*/<h2 class="boxes-names">сейчас в тренде</h2>/
   h2 {
     color: black;
     text-transform: uppercase;
@@ -105,12 +105,16 @@
     font-weight: 700;
   }
   .content-boxes{
-  display: flex;
+   display: flex;
+}
+.content-boxes:first-child{
+  width: 100%;
+}
+.content-boxes:nth-child(n+1){
+  width: 25%;
 }
 .container-boxes{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  box-sizing: border-box;
 }
 .boxes-issues{
   width:25%;
@@ -127,6 +131,7 @@
  font-weight: 700;
  text-align: left;
  display: inline;
+ padding-left: 20px;
 }
   .content {
     display: flex;
