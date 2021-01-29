@@ -105,12 +105,11 @@
     font-weight: 700;
   }
   .content-boxes{
-  
+   box-sizing: border-box;
 }
 .container-boxes{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
 }
 .boxes-issues{
   width:25%;
@@ -127,6 +126,7 @@
  font-weight: 700;
  text-align: left;
  display: inline;
+ padding-left: 20px;
 }
   .content {
     display: flex;
