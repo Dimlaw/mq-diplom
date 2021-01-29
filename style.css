@@ -97,7 +97,7 @@
     z-index: 555;
   }
   /*основной блок*/
-  h2 {
+  .title-name{
     color: black;
     text-transform: uppercase;
     text-decoration: none;
@@ -106,11 +106,13 @@
   }
   .container-boxes{
    display: flex;
-   flex-wrap: wrap;
-   width: 100%;
+    width: 1170px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .boxes-issues{
-  width:25%;
+  width:20%;
 }
 .issues-name{
   box-sizing: border-box;
