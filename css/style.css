@@ -109,12 +109,12 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
     line-height: 3;
-    padding-top: 50px;
-
   }
 .container-cards{
     display: flex;
+    flex-wrap: wrap;
     width: 1170px;
     height:auto;
     margin-left: auto;
