@@ -104,12 +104,13 @@
     text-align: center;
     font-weight: 700;
     width: 1170px;
-    height: 50px;
+    height: 70px;
     font-size: 17px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    line-height: 2;
+
   }
 .container-cards{
     display: flex;
@@ -117,6 +118,7 @@
     height:auto;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .card{
   width:25%;
