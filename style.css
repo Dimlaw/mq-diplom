@@ -97,46 +97,52 @@
     z-index: 555;
   }
   /*основной блок*/
-  .title-name{
+.title-name{
     color: black;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
     font-weight: 700;
     width: 1170px;
-    height: 30px;
-    font-size: 20px;
+    height: 70px;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    line-height: 3;
   }
-  .container-cards{
+.container-cards{
     display: flex;
+    flex-wrap: wrap;
     width: 1170px;
     height:auto;
     margin-left: auto;
     margin-right: auto;
 }
-.card-issues{
-  box-sizing: border-box;
-  width:290px;
+.card{
+  width:25%;
+  font-size: 15px;
 }
 .card-name{
-  box-sizing: border-box;
+  box-sizing: content-box;
   border: 1px solid #b59f5b;
 }
 
-  .content {
+.content {
     display: flex;
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
   }
-  .articles {
+.articles {
     display: flex;
     flex-wrap: wrap;
     width: 780px;
     margin-left: 0;
     margin-right: auto;
   }
-  .article {
+.article {
     display: flex;
     padding-top: 60px;
   }
