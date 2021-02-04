@@ -128,14 +128,16 @@
 .card:last-child{
   margin-right: 0;
 }
+.card-prewiew{
+  padding-left: 5px;
+}
 .card-name{
   box-sizing: border-box;
   border: 1px solid #b59f5b;
 }
 .card-description{
- color: black;
+    color: black;
     text-transform: uppercase;
-    text-decoration: none;
     text-align: start;
     font-weight: 700; 
 }
