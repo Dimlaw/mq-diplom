@@ -183,6 +183,7 @@
     font-weight: 700;
   }
   .article-description {
+    text-transform: uppercase;
     padding-bottom: 25px;
   }
   .date {
